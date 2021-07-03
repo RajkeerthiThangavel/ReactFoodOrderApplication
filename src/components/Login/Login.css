@@ -1,0 +1,18 @@
+.loginRow{
+    display: flex;
+    align-content: space-evenly;
+}
+
+.loginBanner{
+    min-width: 50%;
+}
+
+.foodBanner{
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+}
+
+.loginForm{
+    min-width: 50%;
+}

@@ -1,0 +1,73 @@
+.homeSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menuIamgeContainer{
+    height: 57%;
+}
+
+.restaurantNationality{
+    font-family: fantasy;
+}
+
+.homeCardsBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 40rem;
+}
+
+.orderBtn{
+    text-align: center;
+    margin-left: 25%;
+    background: rgb(237, 90, 107);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.restaurantImage{
+    height: 6rem;
+    width: 11rem;
+}
+
+.homeBannerText{
+    color: white;
+    font-family: system-ui;
+    margin-top: 2rem;
+}
+
+.homeBanner{
+    height: 46rem;
+    width: 40rem;
+    margin: 6rem;
+}
+
+.homeRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.restaurantName{
+    margin-left: 3rem;
+    font-size: 1rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.restaurantOffer{
+    margin-left: 4rem;
+    font-family: fantasy;
+}
+
+.resLocale{
+    text-align: center;
+    font-family: emoji;
+}

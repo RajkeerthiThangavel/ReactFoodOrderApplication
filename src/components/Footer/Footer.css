@@ -1,0 +1,13 @@
+.Footer{
+    background: black;
+    color: #ffffff;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    box-shadow: 1px 1px #888888;
+    border: 1px #888888 solid;
+}
+
+.FooterText{
+    margin-left: 50%;
+}

@@ -1,0 +1,30 @@
+.MainHeader{
+    background: black;
+    color: #ffffff;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px #888888;
+}
+
+.HeaderText{
+    margin-left: 3%;
+}
+
+.appLogo{
+    height: 3rem;
+    width: 4rem;
+    margin-left: 1rem;
+}
+
+.logoutWrapper{
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+.logoutBtn{
+    background: rgb(237, 90, 107);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}

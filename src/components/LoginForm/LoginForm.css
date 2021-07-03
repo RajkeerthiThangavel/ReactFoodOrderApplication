@@ -1,0 +1,76 @@
+.LoginSection {
+    border: 1px solid;
+    margin-top: 7%;
+    height: 65%;
+    margin-right: 38%;
+    color: '#ffffff';
+    box-shadow: 0px 0px 6px white;
+}
+
+.LoginFormbox {
+    height: 20rem;
+    margin-top: 4rem;
+    color: white;
+    margin-left: 4rem;
+}
+
+.SigninBox {
+    margin-right: 19%;
+}
+
+.LoginTextBox {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.emailError {
+    color: red;
+    font-size: 11px;
+    margin-left: 5.5rem;
+}
+
+.mainLoginError {
+    color: red;
+    font-size: 11px;
+    margin-left: 12.5rem;
+    margin-top: 2rem;
+}
+
+.LoginTextBoxPass {
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.signUpbox {
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.signinBtn {
+    margin-left: 36%;
+    width: 5rem;
+    border-radius: 6px;
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.demoSigninBtn {
+    width: 6rem;
+    border-radius: 6px;
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.signupBtn {
+    width: 6rem;
+    border-radius: 6px;
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
