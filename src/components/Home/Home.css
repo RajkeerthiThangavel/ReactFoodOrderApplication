@@ -19,6 +19,20 @@
     max-width: 40rem;
 }
 
+.errorCardsBox{
+    color: #ffffff;
+    margin-top: 15%;
+    margin-left: 15rem;
+}
+
+.restaurantBtn{
+    background: brown;
+    color: #ffffff;
+    font-family: system-ui;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
 .orderBtn{
     text-align: center;
     margin-left: 25%;

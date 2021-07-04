@@ -1,0 +1,1 @@
+export const getMenuList= "/service/getMenuList/{restrauntId}";
