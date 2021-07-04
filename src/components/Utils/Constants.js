@@ -27,56 +27,56 @@ export const restaurantsList = [
         restaurantLocality: "2.1km near you"
     },
     {
-        restaurantName: "KFC",
+        restaurantName: "Subway",
         restaurantType: "Vegetarian",
         restaurantNationality: "Italian",
         restaurantOffers: "20%",
-        restaurantLogo: "/kfcLogo.png",
+        restaurantLogo: "/SubwayLogo.jpg",
         appPath: "",
         restaurantLocality: "2km near you"
     },
     {
-        restaurantName: "McDonald's",
+        restaurantName: "TacoBell",
         restaurantType: "Non-Vegetarian",
         restaurantNationality: "Indian",
         restaurantOffers: "30%",
-        restaurantLogo: "/mcDonaldsLogo.jpg",
+        restaurantLogo: "/tacoBellLogo.jpg",
         appPath: "",
         restaurantLocality: "3km near you"
     },
     {
-        restaurantName: "Dominos",
+        restaurantName: "Meat & Eat",
         restaurantType: "Vegetarian",
         restaurantNationality: "Chinese",
         restaurantOffers: "30%",
-        restaurantLogo: "/Dominos-logo.jpg",
+        restaurantLogo: "/meatEatLogo.png",
         appPath: "",
         restaurantLocality: "2.1km near you"
     },
     {
-        restaurantName: "KFC",
+        restaurantName: "PizzaHut",
         restaurantType: "Vegetarian",
         restaurantNationality: "Italian",
         restaurantOffers: "20%",
-        restaurantLogo: "/kfcLogo.png",
+        restaurantLogo: "/PizzaHutLogo.jpg",
         appPath: "",
         restaurantLocality: "2km near you"
     },
     {
-        restaurantName: "McDonald's",
+        restaurantName: "Chutney Chang",
         restaurantType: "Non-Vegetarian",
         restaurantNationality: "Indian",
         restaurantOffers: "30%",
-        restaurantLogo: "/mcDonaldsLogo.jpg",
+        restaurantLogo: "/chutneyLogo.png",
         appPath: "",
         restaurantLocality: "3km near you"
     },
     {
-        restaurantName: "Dominos",
+        restaurantName: "Saravana Bhavan",
         restaurantType: "Vegetarian",
-        restaurantNationality: "Chinese",
+        restaurantNationality: "Indian",
         restaurantOffers: "30%",
-        restaurantLogo: "/Dominos-logo.jpg",
+        restaurantLogo: "/sbLogo.jpg",
         appPath: "",
         restaurantLocality: "2.1km near you"
     }

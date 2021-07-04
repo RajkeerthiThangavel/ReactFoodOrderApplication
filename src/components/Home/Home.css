@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 
+.orderBtn:hover {
+    background-color: brown;
+  }
+
 .restaurantImage{
     height: 6rem;
     width: 11rem;
