@@ -4,12 +4,14 @@ import BaseServices from "./services/Baseservices";
 import { restaurantsList } from '../Utils/Constants';
 import Loader from "react-loader-spinner";
 import homeBanner from './assets/homeBannerRed.jpg'
+import UnderConstruction from './assets/underConstruction.png'
 import SorryImage from '../Home/assets/sorryClosed.jpg'
 import './Home.css';
 import { useState } from 'react';
 const Home = () => {
     const [loading, setLoading] = useState(false);
     const [menuPage, setMenuPage] = useState(false);
+    const [showConstPage, setShowConstPage] = useState(false);
     const [menuObject, setMenuObject] = useState({});
     const [orderedRestaurant, setOrderedRestaurant] = useState(null);
 
@@ -27,7 +29,15 @@ const Home = () => {
         setMenuPage(false);
     };
 
+    const backtoMenu = () => {
+        setMenuPage(true);
+        setShowConstPage(false);
+    };
 
+
+    const addtoCart = () => {
+        setShowConstPage(true);
+    };
 
     return (
         <section className="homeSection">
@@ -47,7 +57,7 @@ const Home = () => {
                         <img src={homeBanner} alt="foodLogo" className="homeBanner"></img>
                     </div>
                 </Col>
-                {!loading && !menuPage ?
+                {!loading && !showConstPage && !menuPage ?
                     <Col xs={9} md={9} className="">
                         <div className="homeBannerText">Restaurants near you :</div>
                         <div className="homeCardsBox">
@@ -63,7 +73,7 @@ const Home = () => {
                                 </Card>)}
                         </div>
 
-                    </Col> : menuPage &&
+                    </Col> : menuPage && !showConstPage &&
                     <Col xs={9} md={9} className="">
                         <button className="restaurantBtn" onClick={backtoRestaurant}>Go to Restaurant List</button>
                         {menuObject.menuItems.length > 0 ?
@@ -77,13 +87,24 @@ const Home = () => {
                                             </div>
                                             <div className="restaurantName">{menu.MenuName}</div>
                                             <div><span className="restaurantNationality">{menu.MenuNationality}</span></div>
-                                            <button className="orderBtn">Add to cart</button>
+                                            <button className="orderBtn" onClick={addtoCart}>Add to cart</button>
                                         </Card>)}
                                 </div></> : <div className="errorCardsBox">
                                 <div><img src={SorryImage} alt="SorryImage"></img>
                                     <div style={{ marginTop: "7%" }}>Currently We are Not Serving! Sorry for the inconvinience </div></div>
+
                             </div>}
 
+                    </Col>
+                }
+                {
+                    showConstPage &&
+                    <Col xs={9} md={9} className="">
+                        <button className="menuBackBtn" onClick={backtoMenu}>Go to Menu List</button>
+                        <div>
+                            <img src={UnderConstruction} alt="SorryImage"></img>
+                            <div style={{ marginTop: "7%", color: "#ffffff" }}>Currently The Page is Under Construction ! Sorry for the inconvinience </div>
+                        </div>
                     </Col>
                 }
             </Row>

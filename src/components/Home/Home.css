@@ -18,6 +18,11 @@
     flex-wrap: wrap;
     max-width: 40rem;
 }
+.errorConstructionBlock{
+    margin-top: 11%;
+    margin-left: 0%;
+    color: #ffffff;
+}
 
 .errorCardsBox{
     color: #ffffff;
@@ -30,6 +35,15 @@
     color: #ffffff;
     font-family: system-ui;
     margin-top: 2rem;
+    cursor: pointer;
+}
+
+.menuBackBtn{
+    background: brown;
+    color: #ffffff;
+    font-family: system-ui;
+    margin-top: 6rem;
+    margin-bottom: 5%;
     cursor: pointer;
 }
 
